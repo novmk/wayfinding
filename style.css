@@ -9,6 +9,24 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
+#main {
+	width: 100wh;
+	height: 50vh;
+	margin-top: -25vh;
+}
+
+.btn {
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.btn a {
+	color: #000;
+}
+
 #main img {
 	display: block;
 	width: 99%;
