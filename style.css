@@ -253,6 +253,10 @@ a, a:hover, a:visited, a:hover, a:active {
 	overflow: hidden;
 }
 
+.dep .list_tit {
+	position: relative;
+}
+
 .dep_txt {
 	padding: 3rem;
 	animation: depTxtAni 5s infinite;
@@ -265,12 +269,12 @@ a, a:hover, a:visited, a:hover, a:active {
 .dep_direction {
 	font-size: 2.5rem;
 	width: 100%;
-	margin-top: 35rem;
+	margin-top: 14rem;
 }
 
 .dep_location {
 	position: absolute;
-	top: 50%;
+	top: 53%;
 	right: -1rem;
 	font-size: 18rem;
 }
@@ -278,13 +282,13 @@ a, a:hover, a:visited, a:hover, a:active {
 .dep_image {
 	display: block;
 	position: absolute;
-	top: 38%;
+	top: 40%;
 	right: -10rem;
 	overflow: hidden;
 }
 
 .dep_image img{
-	width: 60rem;
+	width: 58rem;
 	animation: depAni 5s infinite;
 }
 
