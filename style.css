@@ -64,6 +64,7 @@ a, a:hover, a:visited, a:hover, a:active {
 	position: fixed;
 	top: 3rem;
 	left: 3rem;	
+	font-weight: 500;
 }
 
 #logo > div {
