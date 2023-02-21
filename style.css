@@ -1,4 +1,4 @@
-html, body {
+html, body, p {
 	margin: 0;
 	padding: 0;
 }
@@ -10,7 +10,7 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
-a:hover, a:visited {
+a, a:hover, a:visited, a:hover, a:active {
 	color: #000;
 }
 
@@ -35,8 +35,6 @@ a:hover, a:visited {
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 1;
-	color: #fff;
-	text-shadow: 0 0 2px #aea2ff;
 }
 
 #main .main_text1 {
@@ -53,10 +51,6 @@ a:hover, a:visited {
     bottom: 100px;
     text-align: center;
     font-size: 4rem;
-}
-
-#page_main .btn a {
-	color: #fff;
 }
 
 #main img {
@@ -93,13 +87,17 @@ a:hover, a:visited {
 	border: red;
 }
 
-#page_list_tit {
+.list_tit {
 	position: fixed;
+	width: 91%;
 	top: 15rem;
 	left: 3rem;
 	font-size: 7.2rem;
 	text-transform: uppercase;
 	line-height: 1;
+	hyphens: auto;
+	word-break: break-word;
+	word-wrap: break-word;
 }
 
 #page_list .btn {
@@ -245,4 +243,50 @@ a:hover, a:visited {
 
 #list li.l28 {
 	background: url('images/pattern_theme9_Narrative_Environment.png') repeat center;
+}
+
+.dep {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.dep_txt {
+	padding: 3rem;
+	animation: depTxtAni 5s infinite;
+}
+
+@keyframes depTxtAni {
+	100% {transform: rotateZ(0deg);}
+}
+
+.dep_direction {
+	font-size: 2.5rem;
+	width: 100%;
+	margin-top: 35rem;
+}
+
+.dep_location {
+	position: absolute;
+	top: 50%;
+	right: -1rem;
+	font-size: 18rem;
+}
+
+.dep_image {
+	display: block;
+	position: absolute;
+	top: 38%;
+	right: -10rem;
+	overflow: hidden;
+}
+
+.dep_image img{
+	width: 60rem;
+	animation: depAni 5s infinite;
+}
+
+@keyframes depAni {
+	100% {transform: rotate(360deg)}
 }
