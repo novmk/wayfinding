@@ -4,9 +4,9 @@ html, body {
 }
 
 body {
-	background: #000;
+	background: #fff;
 	font-size: 12px;
-	font-family: PT Mono, sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 #main img {
